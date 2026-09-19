@@ -1,0 +1,21 @@
+[person]
+name = "Pat Patter"
+role = "Feline Software Engineer"
+
+[body]
+text = """Dear WhiskerWorks Hiring Team,
+
+My name is Pat Patter, and I am writing to apply for the position of Senior Feline Engineer. I have been following WhiskerWorks ever since you shipped your first auto-refilling bowl, and I must say — your dedication to removing humans from the mealtime critical path is nothing short of inspirational.
+
+I earned my B.Sc. in Advanced Napping from the University of the Sunny Windowsill, where my thesis was on reliability: windowsills that hold, cardboard walls that stand, and code that still compiles after a well-deserved nap. My capstone was Cardboard Fortress IV, a multi-room fortress with three reinforced entrances that I architected and defended single-pawed against the Roomba for 47 consecutive days.
+
+At Garage MouseWorks I implemented a real-time pounce detection system with a 98% catch rate in the kitchen laboratory, and later joined The Sofa Holding Co. as Chief Nap Officer, where I delivered a 12-hour zero-downtime napping pipeline across three premium cushions. My flagship open-source project, CatCarrot, tracks all-you-can-eat fish subscriptions and ships with an automatic bowl-refill protocol; it holds the title of Most Furiest Repo in its category.
+
+I bring with me Pawthon, MeowScript, Purrl, and a stubborn refusal to acknowledge the word 'impossible' — unless it is 3 a.m., in which case I will also bring my best work. I understand that is exactly when your most critical features come under attack, so timing is on my side.
+
+Thank you for your consideration. I am available for an interview any time, ideally within prime nap hours (say, 14:00 to 17:00), and I am happy to demonstrate my pouncing on request.
+
+Warmly — seriously, get me a heating pad —
+
+Pat Patter
+"""

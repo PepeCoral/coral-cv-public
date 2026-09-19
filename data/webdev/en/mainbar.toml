@@ -1,0 +1,34 @@
+profile = "Feline software engineer with a passion for scalable catnip warehouses, reliable pouncing pipelines, and shipping features at exactly 3 a.m. Comfortable on warm keyboards, cold floors, and CI/CD loops that actually loop."
+
+[[projects]]
+title = "Cardboard Fortress IV"
+subtitle = "Solo project · Pawthon & MeowScript"
+body = "#strong[Architected and built] a multi-room cardboard fortress with #strong[3 reinforced entrances], a panoramic window perch, and zero visible seams. Successfully defended it against the Roomba for #strong[47 consecutive days]. Featured in the Whisker Weekly top-five builds of the year."
+
+[[projects]]
+title = "CatCarrot"
+subtitle = "Open-source · TailKitty & Catnip"
+body = "Led a team of #strong[9 nine-lifed engineers] building an open-source subscription tracker for all-you-can-eat fish plans. Designed the #strong[automatic bowl-refill protocol] and the #strong[CRON-nap scheduler] that has never once missed a mealtime. #link(\"https://patter.dev/catcarrot\")[#strong[Fork it.]]"
+
+[[projects]]
+title = "Window Sill Finder"
+subtitle = "SaaS · Pawthon & LaserSvelte"
+body = "Shipped a web app that ranks the #strong[sunniest window sills] in any apartment using a proprietary sunbeam index. Processes #strong[1,200 sunbeams per minute] and safely integrates with smart blinds. Presented at #strong[PurrCon 2025]."
+
+[[experiences]]
+role = "Chief Nap Officer"
+title = "The Sofa Holding Co."
+date = "Jun 2024 - Present"
+bodies = [
+  "Designed and delivered a #strong[12-hour zero-downtime napping pipeline] across three premium cushions, improving feline morale by #strong[4 whole purrs].",
+  "Automated the morning head-bonk workflow, cutting human 'good morning' latency by over #strong[80 milliseconds]."
+]
+
+[[experiences]]
+role = "Junior Mouser"
+title = "Garage MouseWorks"
+date = "Mar 2023 - May 2024"
+bodies = [
+  "Implemented a #strong[real-time pounce detection system] in my hind legs, achieving a #strong[98% catch rate] in the controlled kitchen laboratory.",
+  "Maintained the #strong[Churu dispenser] legacy system while training two junior interns in the ancient art of the wait-and-stare."
+]

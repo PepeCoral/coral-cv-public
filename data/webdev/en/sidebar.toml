@@ -1,0 +1,71 @@
+[contact]
+phone = "+1 (555) 426-3697"
+
+[[contact.links]]
+url = "mailto:paw@patter.dev"
+display = "paw@patter.dev"
+
+[[contact.links]]
+url = "https://github.com/paw-patter"
+display = "github/paw-patter"
+
+[[contact.links]]
+url = "https://linkedin.com/in/pat-patter"
+display = "linkedin/pat-patter"
+
+[[contact.links]]
+url = "https://paw-patter.itch.io"
+display = "paw-patter.itch.io"
+
+[[contact.links]]
+url = "https://patter.dev"
+display = "patter.dev"
+
+[[education]]
+title = "B.Sc. in Advanced Napping"
+place = "University of the Sunny Windowsill"
+date = "Sep 2019 - Jun 2023"
+
+[[skills]]
+title = "Programming languages"
+tags = [
+  "Pawthon",
+  "MeowScript",
+  "Purrl",
+]
+
+[[skills]]
+title = "Frameworks"
+tags = [
+  "Naptime.js",
+  "Catnip",
+  "TailKitty",
+]
+
+[[skills]]
+title = "Methodologies"
+tags = ["Sleep Driven Develpment", "Test-Driven Napping"]
+
+[[languages]]
+name = "Feline"
+level = "Native"
+
+[[languages]]
+name = "English"
+level = "Paw-typed"
+
+[[languages]]
+name = "Dog"
+level = "Elementary"
+
+[[softskills]]
+name = "Advanced strategic napping"
+
+[[softskills]]
+name = "Laser pointer evasion"
+
+[[softskills]]
+name = "Fierce keyboard judging"
+
+[[softskills]]
+name = "Cardboard engineering"
