@@ -1,4 +1,4 @@
-# Pat Patter's Data-Driven CV Generator
+# Coral Data-Driven CV Generator
 
 > Wait — you work with a *cat*? That's the point. Everything in this repo is **fake**.
 > It is a public, git-safe copy of a personal CV pipeline, dressed up as the career
@@ -9,28 +9,20 @@ You write your CV once as plain-text data files, and it compiles into pixel-perf
 PDFs — one per persona, language, or target company — either locally or automatically
 in CI whenever you push a git tag.
 
-## The cast
-
-| Variant | What it is |
-|---|---|
-| `variants/webdev/*.typ` | Pat Patter, Feline Software Engineer (EN + ES) |
-| `variants/gamedev/*.typ` | Pat Patter, Feline Game Developer (EN + ES) |
-| `variants/whiskerworks/*.typ` | A cover letter to the fictional "WhiskerWorks" |
-
-All names, contact details, employers, schools, and projects are invented. Nothing
-real lives here — making the repo safe to fork, share, and put on GitHub.
-
 ## Quick start
 
 ```bash
 # Build one CV
 typst compile --root . --font-path style/fonts variants/webdev/webdev-en.typ /tmp/cv.pdf
+```
 
+```bash
 # Build every variant
 find variants -type f -name '*.typ' | while read f; do
   typst compile --root . --font-path style/fonts "$f"
 done
-
+```
+```bash
 # Ship everything as a GitHub Release
 git tag v1.0 && git push origin v1.0
 ```
@@ -57,7 +49,7 @@ Two palettes ship with the repo:
 | Theme | File | Vibe |
 |---|---|---|
 | `teal` | `style/fonts/teal.typ` | The original, calm teal look |
-| `rainbow` | `style/fonts/rainbow.typ` | New pastel-rainbow look (default) |
+| `rainbow` | `style/fonts/rainbow.typ` | New pastel-rainbow look |
 
 Switch a variant between them by changing one `#import` line. Themes are Typst
 dictionaries, so a variant can also derive from one with a one-line override
