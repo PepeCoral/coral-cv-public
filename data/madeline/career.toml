@@ -1,0 +1,62 @@
+profile = "Determined mountain climber on a personal journey to reach the summit of Celeste Mountain. Experienced in navigating dangerous terrain, overcoming seemingly impossible obstacles, and recovering from repeated setbacks. Skilled at discovering hidden paths, collecting rare strawberries, and working through difficult personal challenges. Believes that reaching the summit is important, but learning to accept yourself along the way matters even more."
+
+[[experiences]]
+role = "Independent Mountain Climber"
+title = "Celeste Mountain Expedition"
+date = "Jan 25, 2018 - Present"
+description = "Undertook a solo expedition to climb Celeste Mountain, overcoming treacherous terrain and confronting unexpected personal challenges."
+
+bodies = [
+  "Successfully navigated #strong[vertical cliffs, collapsing platforms, and deadly spike fields] while progressing toward the summit.",
+  "Mastered advanced movement techniques, including #strong[air dashing, wall jumping, and precision climbing], to traverse otherwise inaccessible terrain.",
+  "Collected numerous #strong[strawberries] hidden throughout the mountain, demonstrating exceptional determination and curiosity.",
+  "Confronted and eventually reconciled with #strong[Badeline], learning to work alongside rather than suppress the more difficult parts of herself.",
+  "Reached the #strong[summit of Celeste Mountain], proving that persistence and self-acceptance can overcome even the most intimidating challenges.",
+]
+
+[[experiences]]
+role = "Rescue Volunteer"
+title = "The Abandoned City"
+date = "Jan 25, 2018"
+description = "Assisted fellow traveler Theo during a dangerous exploration of the mountain's abandoned structures."
+
+bodies = [
+  "Established a trusting friendship with #strong[Theo] while navigating unfamiliar and hazardous surroundings.",
+  "Helped Theo escape the #strong[Mirror Temple], overcoming disorienting corridors and supernatural obstacles.",
+  "Demonstrated composure and resourcefulness when conventional escape routes were unavailable.",
+]
+
+[[experiences]]
+role = "Cave Explorer"
+title = "Old Site & Celestial Ruins"
+date = "The First Ascent · Jan 2018"
+description = "Explored the mountain's forgotten structures and uncovered traces of its mysterious history."
+
+bodies = [
+  "Investigated the #strong[Old Site], discovering remnants of previous inhabitants and unusual supernatural phenomena.",
+  "Navigated unstable ruins, hidden passages, and dangerous environmental hazards.",
+  "Discovered the significance of the mountain's #strong[Crystal Hearts] and their connection to its mysterious forces.",
+  "Documented unusual encounters with reflections, dreams, and manifestations of inner fears.",
+]
+
+[[projects]]
+title = "The Summit"
+subtitle = "Personal Expedition · Celeste Mountain"
+date = "Jan 25, 2018"
+bodies = [
+  "Planned and completed an ambitious expedition to reach the highest point of #strong[Celeste Mountain].",
+  "Overcame increasingly difficult climbing challenges through patience, practice, and repeated attempts.",
+  "Learned to cooperate with #strong[Badeline], transforming an internal struggle into a source of strength.",
+  "Reached the summit alongside her inner counterpart, celebrating a journey defined by persistence rather than perfection.",
+]
+
+[[projects]]
+title = "Farewell"
+subtitle = "Personal Growth · Beyond the Summit"
+date = "Sep 9, 2019"
+bodies = [
+  "Returned to the mountain to confront the complicated emotions surrounding #strong[loss and acceptance].",
+  "Learned that grief cannot always be overcome through determination alone, and that some experiences require patience rather than action.",
+  "Accepted the importance of friendship, emotional honesty, and allowing herself time to heal.",
+  "Discovered that personal growth is not a destination, but an ongoing journey.",
+]

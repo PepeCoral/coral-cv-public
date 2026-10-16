@@ -1,0 +1,48 @@
+name: Build PDFs and Release
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v3
+
+      - name: Build all Typst variants
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p release
+
+          find variants -type f -name '*.typ' | while IFS= read -r file; do
+            rel="${file#variants/}"
+            out="release/${rel%.typ}.pdf"
+
+            mkdir -p "$(dirname "$out")"
+
+            echo "::group::Compiling $file"
+            typst compile \
+              --root "$GITHUB_WORKSPACE" \
+              --font-path "$GITHUB_WORKSPACE/style/fonts" \
+              "$file" \
+              "$out"
+            echo "::endgroup::"
+          done
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release/**/*.pdf
+          generate_release_notes: true

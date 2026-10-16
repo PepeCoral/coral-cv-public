@@ -1,0 +1,87 @@
+[contact]
+phone = "+1 555 010 0142"
+
+[[contact.links]]
+url = "mailto:madeline@celeste.example"
+display = "madeline@celeste.example"
+
+[[contact.links]]
+url = "https://www.celestegame.com/"
+display = "Celeste"
+
+[[contact.links]]
+url = "https://maddymakesgamesinc.itch.io/celesteclassic"
+display = "Celeste Classic"
+
+[[education]]
+title = "Advanced Mountain Climbing & Personal Growth"
+place = "Celeste Mountain"
+date = "Jan 2026 - Present"
+
+[[education]]
+title = "Survival & Exploration"
+place = "The Abandoned City"
+date = "Dec 2025 - Jan 2026"
+
+[[skills]]
+title = "Climbing & Movement"
+tags = [
+  "Wall Climbing",
+  "Air Dashing",
+  "Wall Jumping",
+  "Precision Jumping",
+  "Mid-Air Recovery",
+  "Spike Avoidance",
+]
+
+[[skills]]
+title = "Exploration"
+tags = [
+  "Hidden Path Discovery",
+  "Strawberry Collection",
+  "Secret Area Exploration",
+  "Ancient Ruin Navigation",
+  "Golden Strawberry Pursuits",
+]
+
+[[skills]]
+title = "Survival"
+tags = [
+  "Hazard Recognition",
+  "Persistence Under Pressure",
+  "Cold Weather Endurance",
+  "Improvised Problem Solving",
+]
+
+[[skills]]
+title = "Personal Development"
+tags = [
+  "Self-Acceptance",
+  "Emotional Resilience",
+  "Fear Management",
+  "Perseverance",
+  "Inner Conflict Resolution",
+  "Asking for Help",
+]
+
+[[skills]]
+title = "Special Abilities"
+tags = [
+  "Dash Recharging",
+  "Dream Block Navigation",
+  "Feather Flight",
+  "Crystal Heart Discovery",
+  "Mirror Temple Survival",
+]
+
+[[languages]]
+name = "English"
+level = "Fluent"
+
+[[languages]]
+name = "Mountain Climber"
+level = "Native"
+
+[[languages]]
+name = "Badeline"
+level = "Mutually Understood"
