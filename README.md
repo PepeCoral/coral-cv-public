@@ -50,8 +50,6 @@ Modify any of this files, create copies of them mix and match them as you like t
 
 ## Themes
 
-Two palettes ship with the repo:
-
 | Theme | File | Vibe |
 |---|---|---|
 | `teal` | `style/themes/teal.typ` | The original, calm teal look |
